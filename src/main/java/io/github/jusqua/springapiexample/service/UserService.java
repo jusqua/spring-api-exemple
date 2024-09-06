@@ -20,23 +20,10 @@ public class UserService {
     }
 
     public UserModel createUser(UserModel user) {
-        user.setId(userRepository.findMaxId().orElse(0L) + 1);
         return userRepository.save(user);
     }
 
     public Optional<UserModel> getUserById(Long id) {
         return userRepository.findById(id);
-    }
-
-    public UserModel updateUser(UserModel user) {
-        return userRepository.save(user);
-    }
-
-    public void deleteUser(Long id) {
-        userRepository.deleteById(id);
-    }
-
-    public boolean existsById(Long id) {
-        return userRepository.existsById(id);
     }
 }

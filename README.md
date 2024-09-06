@@ -17,55 +17,29 @@ docker compose up # up postgres database
 ## Routes
 
 ### Users
-- GET `/users`: return all users
-```json
-[
-  {
-    "id": integer,
-    "name": string,
-    "email": string
-  }, ...
-]
-```
-- GET `/users/{id}`: return user from given id
+- GET `/users/{cpf}`: return user from given cpf
 #### Return
 ```json
 {
-  "id": integer,
+  "cpf": integer,
   "name": string,
-  "email": string
-}
-```
-- DELETE `/users/{id}`: delete user from given id
-- PUT `/users/{id}`: update user from given id and given body structure, and return the updated structure
-#### Request Body
-```json
-{
-  "name": string,
-  "email": string
-}
-```
-#### Return
-```json
-{
-  "id": integer,
-  "name": string,
-  "email": string
+  "birth_date": iso-date
 }
 ```
 - POST `/users`: create user from given body structure and return the created structure
 #### Request Body
 ```json
 {
+  "cpf": integer,
   "name": string,
-  "email": string
+  "birth_date": iso-date
 }
 ```
 #### Return
 ```json
 {
-  "id": integer,
+  "cpf": integer,
   "name": string,
-  "email": string
+  "birth_date": iso-date
 }
 ```
