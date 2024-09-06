@@ -1,7 +1,7 @@
-package io.github.jusqua.springapiexemple.controller;
+package io.github.jusqua.springapiexample.controller;
 
-import io.github.jusqua.springapiexemple.model.UserModel;
-import io.github.jusqua.springapiexemple.service.UserService;
+import io.github.jusqua.springapiexample.model.UserModel;
+import io.github.jusqua.springapiexample.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

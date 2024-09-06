@@ -1,6 +1,6 @@
-package io.github.jusqua.springapiexemple.repository;
+package io.github.jusqua.springapiexample.repository;
 
-import io.github.jusqua.springapiexemple.model.UserModel;
+import io.github.jusqua.springapiexample.model.UserModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

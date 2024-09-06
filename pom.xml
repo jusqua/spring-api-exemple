@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.github.jusqua</groupId>
-    <artifactId>spring-api-exemple</artifactId>
+    <artifactId>spring-api-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-api-exemple</name>
-    <description>spring-api-exemple</description>
+    <name>spring-api-example</name>
+    <description>spring-api-example</description>
     <url/>
     <licenses>
         <license/>

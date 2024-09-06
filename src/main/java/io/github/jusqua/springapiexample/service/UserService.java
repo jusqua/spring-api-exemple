@@ -1,7 +1,7 @@
-package io.github.jusqua.springapiexemple.service;
+package io.github.jusqua.springapiexample.service;
 
-import io.github.jusqua.springapiexemple.model.UserModel;
-import io.github.jusqua.springapiexemple.repository.UserRepository;
+import io.github.jusqua.springapiexample.model.UserModel;
+import io.github.jusqua.springapiexample.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

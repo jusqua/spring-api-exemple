@@ -1,13 +1,11 @@
-package io.github.jusqua.springapiexemple;
+package io.github.jusqua.springapiexample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringApiExempleApplication {
-
+public class SpringApiExampleApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringApiExempleApplication.class, args);
+        SpringApplication.run(SpringApiExampleApplication.class, args);
     }
-
 }

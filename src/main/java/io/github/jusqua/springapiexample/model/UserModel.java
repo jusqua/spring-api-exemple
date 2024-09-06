@@ -1,4 +1,4 @@
-package io.github.jusqua.springapiexemple.model;
+package io.github.jusqua.springapiexample.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
